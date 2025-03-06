@@ -61,7 +61,8 @@ Our product catalog features the following five models of Trend IOTA bags:
 	Secure individual user accounts using ASP.NET Identity.
 	HTTPS configuration for encrypted connections.
 1100
-	Testing: Encountered an issue with user authentication failing due to incorrect database migrations (Time: 10:45). 	Fixed by applying dotnet ef migrations add InitialCreate followed by dotnet ef database update.
+	Testing: Encountered an issue with user authentication failing due to incorrect database migrations (Time: 10:45). 	Fixed by applying dotnet ef migrations add 
+                 InitialCreate followed by dotnet ef database update.
 	2. Product Catalog (CRUD Operations)
 1130
 	Users can Create, Read, Update, and Delete bag models.
