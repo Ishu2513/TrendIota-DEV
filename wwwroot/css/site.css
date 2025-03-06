@@ -1,0 +1,15 @@
+/* Hero Section */
+.hero-section {
+    background: url('../images/hero-banner.jpg') no-repeat center center/cover;
+    height: 90vh;
+}
+
+.hero-logo {
+    width: 120px;
+}
+
+/* About Section */
+.about-section {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 50px 0;
+}

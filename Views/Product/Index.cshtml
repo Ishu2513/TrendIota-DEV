@@ -1,0 +1,27 @@
+﻿@model List<Product>
+
+
+@{
+    ViewData["Title"] = "Product Catalog";
+}
+
+<div class="container">
+    <h1 class="text-center my-4">Explore Our TrendIota Collection</h1>
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text text-muted">@product.Description</p>
+                        <h4 class="text-primary">$@product.Price</h4>
+                        <button class="btn btn-dark">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

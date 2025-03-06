@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home - TrendIota";
+}
+
+<!-- Hero Section -->
+<div class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+    <div>
+        <img src="~/images/Logo.png" alt="TrendIota Logo" class="hero-logo mb-3">
+        <h1>Welcome to TrendIota</h1>
+        <p>Your one-stop shop for trendy fashion accessories.</p>
+        <a href="@Url.Action("Index", "Product")" class="btn btn-primary btn-lg mt-3">Shop Now</a>
+    </div>
+</div>
+
+<!-- Featured Products -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/product1.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Luxurious Bag</h5>
+                    <p class="card-text">$199.99</p>
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/product2.jpg" class="card-img-top" alt="Product 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">HandBag</h5>
+                    <p class="card-text">$99.99</p>
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/product3.jpg" class="card-img-top" alt="Product 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Designer Handbag</h5>
+                    <p class="card-text">$249.99</p>
+                    <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section class="about-section text-white text-center py-5">
+    <div class="container">
+        <h2>About TrendIota</h2>
+        <p>We are dedicated to bringing you the best in fashion accessories, blending style with technology.</p>
+        <a href="@Url.Action("About", "Home")" class="btn btn-light">Learn More</a>
+    </div>
+</section>
